@@ -1,9 +1,11 @@
 #include <iostream>
-#include "primaLibreria.h"13
+#include "primaLibreria.h"
+
 using namespace std;
 
 int main() {
-    int a=0; cin >>a;
+    int a=0;
+    cin >>a;
     int b=(a-1);
 
     if(primo(a,b) == true){
